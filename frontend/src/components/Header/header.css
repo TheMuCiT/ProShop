@@ -18,6 +18,17 @@
      color: white;
 }
 
+.headerTitle {
+     text-decoration: none;
+     color: white;
+     font-weight: 600;
+     font-size: 30px;
+}
+
+.headerTitle:active {
+     transform: scale(1.1);
+}
+
 .headerRight {
      flex: 50%;
      display: flex;
@@ -32,10 +43,25 @@
 }
 
 .headerLink {
-     margin-left: 30px;
      display: flex;
+     margin-left: 20px;
+     text-decoration: none;
+     color: white;
+     opacity: 0.3;
 }
 
-.headerLinkText {
-     margin-left: 10px;
+.headerLink:hover {
+     opacity: 0.7;
+}
+
+.headerLink:active {
+     transform: scale(1.1);
+}
+
+.headerIcon {
+     margin-right: 10px;
+}
+
+.headerActive {
+     opacity: 1 !important;
 }

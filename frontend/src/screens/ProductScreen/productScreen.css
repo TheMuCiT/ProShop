@@ -1,0 +1,108 @@
+.productScreen {
+     display: flex;
+     flex-direction: column;
+}
+
+.productScreenButton {
+     text-decoration: none;
+     color: black;
+     font-size: 45px;
+     margin: 20px;
+     padding: 20px;
+}
+
+.productScreenGoBackText {
+     font-size: 25px;
+}
+
+.productScreenItem {
+     display: flex;
+}
+
+.productScreenIMG {
+     background-color: red;
+     flex: 40%;
+     max-width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-end;
+}
+
+/* ABOUT */
+
+.productScreenAbout {
+     flex: 40%;
+     align-items: center;
+     justify-content: center;
+}
+
+.productScreenAboutTitle {
+     font-size: 35px;
+     font-weight: bold;
+     margin: 30px;
+}
+
+.productScreenAboutRating,
+.productScreenAboutRatingPrice,
+.productScreenAboutRatingDescription {
+     display: flex;
+     align-items: center;
+     margin: 0px 10px;
+     padding: 20px;
+     border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.productScreenAboutRatingPrice {
+     font-size: 18px;
+     font-weight: 500;
+}
+
+/* CARD */
+
+.productScreenCard {
+     flex: 20%;
+}
+
+.productScreenCardPrice,
+.productScreenCardStatus {
+     display: flex;
+     margin: 0px 10px;
+     padding: 20px;
+     font-weight: 500;
+     font-size: 20px;
+     border-top: 1px solid rgba(128, 128, 128, 0.5);
+     border-left: 1px solid rgba(128, 128, 128, 0.5);
+     border-right: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.productScreenCardPriceValue,
+.productScreenCardStatusValue {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin: 0px 20px;
+     font-weight: 500;
+     font-size: 20px;
+}
+
+.productScreenCardButton {
+     display: flex;
+     margin: 0px 10px;
+     padding: 20px;
+     font-weight: 500;
+     font-size: 20px;
+     border-top: 1px solid rgba(128, 128, 128, 0.5);
+     border-left: 1px solid rgba(128, 128, 128, 0.5);
+     border-right: 1px solid rgba(128, 128, 128, 0.5);
+     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.productScreenCardButtonAction {
+     background-color: black;
+     color: white;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 70px;
+}

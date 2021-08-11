@@ -1,11 +1,95 @@
 .product {
-     height: 100px;
-     width: 350px;
-     height: 350px;
-     background-color: green;
+     width: 16.6%;
+     min-width: 230px;
+     padding: 15px;
+     margin: 10px;
+     margin-bottom: 25px;
+     border-radius: 6px;
+     border: 1px solid rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+}
+
+.productCard {
+     text-decoration: none;
 }
 
 .productIMG {
+     display: block;
      width: 100%;
-     height: 100%;
+     height: auto;
+}
+
+.productText {
+     margin: 20px;
+}
+
+.productName {
+     color: black;
+     font-weight: 600;
+}
+
+.productReviews {
+     margin-top: 20px;
+     text-decoration: none;
+     font-size: 16px;
+     color: black;
+     font-weight: 500;
+}
+
+.productPrice {
+     margin-top: 20px;
+     text-decoration: none;
+     font-size: 30px;
+     color: black;
+     font-weight: 700;
+}
+
+/* RATING */
+
+.rating {
+     display: flex;
+     align-items: center;
+}
+
+.ratingSVG {
+     margin-right: 2px;
+}
+
+.ratingSVG.empty .StarIcon,
+.StarIcon1 {
+     fill: #ffffe8;
+}
+
+.ratingSVG.full .StarIcon,
+.StarIcon1 {
+     fill: #ffff00;
+}
+
+.ratingSVG.half .StarIcon {
+     fill: rgba(255, 255, 0, 0.5);
+}
+
+.ratingSVG.half .StarIcon1 {
+     fill: #ffff00;
+}
+
+.ratingText {
+     margin-left: 4px;
+     font-weight: 500;
+}
+
+@media (max-width: 1400px) {
+     .product {
+          width: 20%;
+     }
+}
+@media (max-width: 1160px) {
+     .product {
+          width: 25%;
+     }
+}
+@media (max-width: 950px) {
+     .product {
+          width: 33.3%;
+     }
 }

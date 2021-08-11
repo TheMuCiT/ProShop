@@ -10,9 +10,11 @@ const HomeScreen = () => {
           <>
                <h1>LATEST PRODUCTS</h1>
                <div className='homeScreenProductList'>
-                    {products.map((product) => (
-                         <Product product={product} />
-                    ))}
+                    <div className='homeScreenProductWrapper'>
+                         {products.map((product) => (
+                              <Product key={product._id} product={product} />
+                         ))}
+                    </div>
                </div>
           </>
      )

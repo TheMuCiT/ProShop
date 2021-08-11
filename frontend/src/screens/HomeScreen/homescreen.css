@@ -1,6 +1,10 @@
 .homeScreenProductList {
-     display: grid;
-     grid-gap: 1rem;
-     grid-template-columns: repeat(4, 1fr);
-     background-color: red;
+     width: 100%;
+     margin: 20px auto;
+}
+
+.homeScreenProductWrapper {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
 }
