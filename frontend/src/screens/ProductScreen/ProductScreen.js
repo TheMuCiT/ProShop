@@ -39,7 +39,12 @@ const ProductScreen = ({ match }) => {
                               </div>
                          </div>
                          <div className='productScreenCardButton'>
-                              <div className='productScreenCardButtonAction'>ADD TO CARD</div>
+                              <button
+                                   className='productScreenCardButtonAction'
+                                   disabled={product.countInStock === 0}
+                              >
+                                   ADD TO CARD
+                              </button>
                          </div>
                     </div>
                </div>

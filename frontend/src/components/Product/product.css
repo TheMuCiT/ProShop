@@ -57,7 +57,7 @@
 
 .ratingSVG.empty .StarIcon,
 .StarIcon1 {
-     fill: #ffffe8;
+     fill: #ffffff00 !important;
 }
 
 .ratingSVG.full .StarIcon,
@@ -66,11 +66,11 @@
 }
 
 .ratingSVG.half .StarIcon {
-     fill: rgba(255, 255, 0, 0.5);
+     fill: #ffff0000 !important;
 }
 
 .ratingSVG.half .StarIcon1 {
-     fill: #ffff00;
+     fill: #ffff00 !important;
 }
 
 .ratingText {
