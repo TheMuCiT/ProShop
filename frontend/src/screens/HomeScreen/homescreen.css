@@ -1,10 +1,12 @@
 .homeScreenProductList {
-     width: 100%;
-     margin: 20px auto;
+     max-width: 1500px;
+     margin: 0 auto;
 }
 
 .homeScreenProductWrapper {
      display: flex;
      flex-wrap: wrap;
-     justify-content: flex-start;
+     list-style: none;
+     margin: 0;
+     padding: 0;
 }

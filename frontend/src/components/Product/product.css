@@ -58,24 +58,29 @@
 .ratingSVG.empty .StarIcon,
 .StarIcon1 {
      fill: #ffffff00 !important;
+     opacity: 0;
 }
 
 .ratingSVG.full .StarIcon,
 .StarIcon1 {
      fill: #ffff00;
+     opacity: 1;
 }
 
 .ratingSVG.half .StarIcon {
      fill: #ffff0000 !important;
+     opacity: 0;
 }
 
 .ratingSVG.half .StarIcon1 {
      fill: #ffff00 !important;
+     opacity: 1;
 }
 
 .ratingText {
      margin-left: 4px;
      font-weight: 500;
+     white-space: nowrap;
 }
 
 @media (max-width: 1400px) {
